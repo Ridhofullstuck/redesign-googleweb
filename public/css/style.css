@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.form-control {
+    width: 500px;
+    height: 40px;
+    /* margin-left: -50px; */
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.img-fluid {
+    width: 200px;
+    height: 200px;
+}
+
+.cd img {
+    margin-left: 30px;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    display: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+section header {
+    /* position: absolute; */
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px 10px;
+}
+
+section header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+section header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+section header ul li a {
+    color: #111;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+section .list {
+    position: absolute;
+}
+.list-kolom {
+    position: relative;
+    margin: -15px;
+    top: 0;
+    width: auto;
+    display: flex;
+}
+
+.list-kolom ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+.list-kolom ul li {
+    list-style: none;
+    border: 1px solid #d4cdbc;
+    border-radius: 20px;
+    padding: 7px 15px;
+}
+
+.list-kolom ul li:hover {
+    background-color: #9cde74;
+    transition: all 0.7s;
+}
+
+.list-kolom ul li a {
+    color: #111;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.main h6 {
+    font-size: 1rem;
+    color: #7d797a;
+    margin-bottom: 20px;
+}
+
+.main h3 {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.main-content p {
+    display: contents;
+}
+
+.main-content .img-thumbnail {
+    margin-right: 15px;
+}
+
+div.ab {
+    display: flex;
+}
+
+.kolom {
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.kolom p {
+    cursor: text;
+}
+
+.kolom .link {
+    font-size: 1.4rem;
+}
+
+.udr:hover {
+    text-decoration: underline;
+    color: #5bb0e4;
+}
+
+.terkait {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.terkait a {
+    color: #111;
+    grid-gap: 5px;
+}
+
+.terkait a:hover {
+    text-decoration: underline;
+    color: #111;
+}
+
+.tkt {
+    align-items: center;
+    background-color: #f1f3f4;
+    border-radius: 100px;
+    display: flex;
+    max-height: none;
+    min-height: 48px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    position: relative;
+}
+
+footer {
+    background: #f2f2f2;
+    z-index: -1;
+    width: 100%;
+    line-height: 40px;
+    position: absolute;
+}
+
+footer p {
+    padding: 10px 60px;
+}
